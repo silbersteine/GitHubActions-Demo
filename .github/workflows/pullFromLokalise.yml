@@ -20,5 +20,6 @@ jobs:
           project_id: 5240680466981cdb8c9717.46827333
           translations_path: locales
           file_format: json
-          additional_params: --temp_branch_prefix l10n- --filter-data translated
+          additional_params: --filter-data translated
+          temp_branch_prefix: l10n-
             
