@@ -18,6 +18,6 @@ jobs:
           api_token: ${{ secrets.LOKALISE_API_TOKEN }}
           project_id: 5240680466981cdb8c9717.46827333
           base_lang: en
-          translations_path: locales/
+          translations_path: locales
           file_format: json
           additional_params: 
