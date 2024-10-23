@@ -21,5 +21,5 @@ jobs:
           translations_path: locales
           file_format: json
           additional_params: --filter-data translated
-          temp_branch_prefix: l10n-
+          temp_branch_prefix: l10n
             
