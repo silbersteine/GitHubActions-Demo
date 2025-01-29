@@ -2,5 +2,6 @@
     "key1": "Hello  Lokalise!!!! This key is from actions/config/locales//en/en.json",
     "key2": "GitHub  Actions are not too bad", 
     "key3": "GitHub  Actions are awesome!!!",
-    "key4": "Fourth key"
+    "key4": "Fourth key",
+    "key5": "fifth key"
 } 
