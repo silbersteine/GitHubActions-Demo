@@ -3,7 +3,7 @@
   <string-array name="array_of_strings">
     <item>Siempre</item>
     <item>Cuando sea posible</item>
-    <item>¡Nunca!</item>
+    <item>¡Nunca jamas!</item>
   </string-array>
   <plurals name="plural_string">
     <item quantity="one">%s gato</item>
