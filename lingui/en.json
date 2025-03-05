@@ -1,0 +1,1537 @@
+{
+    "English": {
+      "translation": "English",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          261
+        ]
+      ]
+    },
+    "Arabic": {
+      "translation": "Arabic",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          275
+        ]
+      ]
+    },
+    "Bulgarian": {
+      "translation": "Bulgarian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          283
+        ]
+      ]
+    },
+    "Bosnian": {
+      "translation": "Bosnian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          297
+        ]
+      ]
+    },
+    "Czech": {
+      "translation": "Czech",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          311
+        ]
+      ]
+    },
+    "Danish": {
+      "translation": "Danish",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          325
+        ]
+      ]
+    },
+    "German": {
+      "translation": "German",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          332
+        ]
+      ]
+    },
+    "Spanish": {
+      "translation": "Spanish",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          339
+        ]
+      ]
+    },
+    "Greek": {
+      "translation": "Greek",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          346
+        ]
+      ]
+    },
+    "Estonian": {
+      "translation": "Estonian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          353
+        ]
+      ]
+    },
+    "Farsi": {
+      "translation": "Farsi",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          360
+        ]
+      ]
+    },
+    "Finnish": {
+      "translation": "Finnish",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          368
+        ]
+      ]
+    },
+    "French": {
+      "translation": "French",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          375
+        ]
+      ]
+    },
+    "Hebrew": {
+      "translation": "Hebrew",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          396
+        ]
+      ]
+    },
+    "Hindi": {
+      "translation": "Hindi",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          404
+        ]
+      ]
+    },
+    "Croatian": {
+      "translation": "Croatian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          411
+        ]
+      ]
+    },
+    "Hungarian": {
+      "translation": "Hungarian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          418
+        ]
+      ]
+    },
+    "Indonesian": {
+      "translation": "Indonesian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          425
+        ]
+      ]
+    },
+    "Italian": {
+      "translation": "Italian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          439
+        ]
+      ]
+    },
+    "Japanese": {
+      "translation": "Japanese",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          446
+        ]
+      ]
+    },
+    "Kannada": {
+      "translation": "Kannada",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          460
+        ]
+      ]
+    },
+    "Korean": {
+      "translation": "Korean",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          467
+        ]
+      ]
+    },
+    "Lithuanian": {
+      "translation": "Lithuanian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          474
+        ]
+      ]
+    },
+    "Latvian": {
+      "translation": "Latvian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          481
+        ]
+      ]
+    },
+    "Norwegian": {
+      "translation": "Norwegian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          516
+        ]
+      ]
+    },
+    "Dutch": {
+      "translation": "Dutch",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          523
+        ]
+      ]
+    },
+    "Polish": {
+      "translation": "Polish",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          530
+        ]
+      ]
+    },
+    "Portuguese (Brazil)": {
+      "translation": "Portuguese (Brazil)",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          537
+        ]
+      ]
+    },
+    "Romanian": {
+      "translation": "Romanian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          544
+        ]
+      ]
+    },
+    "Russian": {
+      "translation": "Russian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          551
+        ]
+      ]
+    },
+    "Slovenian": {
+      "translation": "Slovenian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          558
+        ]
+      ]
+    },
+    "Albanian": {
+      "translation": "Albanian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          565
+        ]
+      ]
+    },
+    "Serbian": {
+      "translation": "Serbian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          572
+        ]
+      ]
+    },
+    "Swedish": {
+      "translation": "Swedish",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          579
+        ]
+      ]
+    },
+    "Thai": {
+      "translation": "Thai",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          607
+        ]
+      ]
+    },
+    "Tagalog": {
+      "translation": "Tagalog",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          614
+        ]
+      ]
+    },
+    "Turkish": {
+      "translation": "Turkish",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          621
+        ]
+      ]
+    },
+    "Ukrainian": {
+      "translation": "Ukrainian",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          628
+        ]
+      ]
+    },
+    "Urdu": {
+      "translation": "Urdu",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          635
+        ]
+      ]
+    },
+    "Uzbek": {
+      "translation": "Uzbek",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          643
+        ]
+      ]
+    },
+    "Vietnamese": {
+      "translation": "Vietnamese",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          650
+        ]
+      ]
+    },
+    "Chinese (Simplified)": {
+      "translation": "Chinese (Simplified)",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          664
+        ]
+      ]
+    },
+    "Chinese (Traditional)": {
+      "translation": "Chinese (Traditional)",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/i18n/constants.ts",
+          671
+        ]
+      ]
+    },
+    "YOtIqx": {
+      "translation": "\"{0}\" {1} will be permanently deleted and you won't be able to restore it. .",
+      "message": "\"{0}\" {1} will be permanently deleted and you won't be able to restore it. .",
+      "comments": [
+        "The item in the quotes refers to a page inside a website's title, whereas the item inside the markup will be the page's route on the site, e.g. `'About the Hotel' (hotel)`"
+      ],
+      "origin": [
+        [
+          "src/sections/docs/sites/components/modals/ConfirmRemovePageModal.tsx",
+          119
+        ]
+      ]
+    },
+    "uhWzJY": {
+      "translation": "\"{0}\" has been posted to {formatLabel}",
+      "message": "\"{0}\" has been posted to {formatLabel}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/sharing/exportHooks.tsx",
+          201
+        ]
+      ]
+    },
+    "dLUUOA": {
+      "translation": "\"{0}\" will be permanently deleted and you won't be able to restore it.",
+      "message": "\"{0}\" will be permanently deleted and you won't be able to restore it.",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/doc_management/components/ConfirmPermanentlyDeleteModal.tsx",
+          49
+        ]
+      ]
+    },
+    "gFo4O3": {
+      "translation": "(cards {cardRangesInput})",
+      "message": "(cards {cardRangesInput})",
+      "comments": [
+        "This text appears when the user is exporting a range of cards, e.g. cards 1-5,8"
+      ],
+      "origin": [
+        [
+          "src/modules/sharing/components/SharePanel/SocialPostModal.tsx",
+          136
+        ]
+      ]
+    },
+    "cI7zH1": {
+      "translation": "(custom)",
+      "message": "(custom)",
+      "comments": [
+        "INTERNAL ONLY - Do not translate"
+      ],
+      "origin": [
+        [
+          "src/modules/app/Version.tsx",
+          72
+        ]
+      ]
+    },
+    "P9Cyl9": {
+      "translation": "(default)",
+      "message": "(default)",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/theming/components/ThemeColorPicker/ThemeColorPickerInput.tsx",
+          49
+        ],
+        [
+          "src/sections/docs/editor/components/Toolbar/ZoomControls.tsx",
+          205
+        ]
+      ]
+    },
+    "DlLZIu": {
+      "translation": "(latest)",
+      "message": "(latest)",
+      "comments": [
+        "Noting that the user is on the most recent version of Gamma"
+      ],
+      "origin": [
+        [
+          "src/modules/app/Version.tsx",
+          60
+        ]
+      ]
+    },
+    "4Q6lF1": {
+      "translation": "(you)",
+      "message": "(you)",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/workspaces/components/WorkspaceSettingsPage/MembersList.tsx",
+          534
+        ]
+      ]
+    },
+    "dDUgzP": {
+      "translation": "(You)",
+      "message": "(You)",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/analytics/components/ViewersTable.tsx",
+          156
+        ],
+        [
+          "src/modules/sharing/components/SharePanel/Collaborate.tsx",
+          351
+        ],
+        [
+          "src/modules/tiptap_editor/extensions/Annotatable/components/Comments/CommentHeader.tsx",
+          118
+        ]
+      ]
+    },
+    "uGWY40": {
+      "translation": "{0, plural, one {{userNames} was invited to comment on this {GAMMA_ARTIFACT_PROPER_NOUN}.} other {{userNames} were invited to comment on this {GAMMA_ARTIFACT_PROPER_NOUN}.}}",
+      "message": "{0, plural, one {{userNames} was invited to comment on this {GAMMA_ARTIFACT_PROPER_NOUN}.} other {{userNames} were invited to comment on this {GAMMA_ARTIFACT_PROPER_NOUN}.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/sharing/components/SharePanel/CollaboratorSearchBar.tsx",
+          137
+        ]
+      ]
+    },
+    "3rbi6Y": {
+      "translation": "{0, plural, one {{userNames} was invited to edit this {GAMMA_ARTIFACT_PROPER_NOUN}.} other {{userNames} were invited to edit this {GAMMA_ARTIFACT_PROPER_NOUN}.}}",
+      "message": "{0, plural, one {{userNames} was invited to edit this {GAMMA_ARTIFACT_PROPER_NOUN}.} other {{userNames} were invited to edit this {GAMMA_ARTIFACT_PROPER_NOUN}.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/sharing/components/SharePanel/CollaboratorSearchBar.tsx",
+          132
+        ]
+      ]
+    },
+    "4bKxWq": {
+      "translation": "{0, plural, one {{userNames} was invited to own this {GAMMA_ARTIFACT_PROPER_NOUN}.} other {{userNames} were invited to own this {GAMMA_ARTIFACT_PROPER_NOUN}.}}",
+      "message": "{0, plural, one {{userNames} was invited to own this {GAMMA_ARTIFACT_PROPER_NOUN}.} other {{userNames} were invited to own this {GAMMA_ARTIFACT_PROPER_NOUN}.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/sharing/components/SharePanel/CollaboratorSearchBar.tsx",
+          127
+        ]
+      ]
+    },
+    "Ai1TAT": {
+      "translation": "{0, plural, one {{userNames} was invited to this {GAMMA_ARTIFACT_PROPER_NOUN}.} other {{userNames} were invited to this {GAMMA_ARTIFACT_PROPER_NOUN}.}}",
+      "message": "{0, plural, one {{userNames} was invited to this {GAMMA_ARTIFACT_PROPER_NOUN}.} other {{userNames} were invited to this {GAMMA_ARTIFACT_PROPER_NOUN}.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/sharing/components/SharePanel/CollaboratorSearchBar.tsx",
+          147
+        ]
+      ]
+    },
+    "p5IG6F": {
+      "translation": "{0, plural, one {{userNames} was invited to view this {GAMMA_ARTIFACT_PROPER_NOUN}.} other {{userNames} were invited to view this {GAMMA_ARTIFACT_PROPER_NOUN}.}}",
+      "message": "{0, plural, one {{userNames} was invited to view this {GAMMA_ARTIFACT_PROPER_NOUN}.} other {{userNames} were invited to view this {GAMMA_ARTIFACT_PROPER_NOUN}.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/sharing/components/SharePanel/CollaboratorSearchBar.tsx",
+          142
+        ]
+      ]
+    },
+    "fFAIng": {
+      "translation": "{0, plural, one {# card} other {# cards}}",
+      "message": "{0, plural, one {# card} other {# cards}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/ai/generator/components/shared/CardCountControls.tsx",
+          164
+        ]
+      ]
+    },
+    "LaQ44M": {
+      "translation": "{0, plural, one {# member (you)} other {# members}}",
+      "message": "{0, plural, one {# member (you)} other {# members}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/workspaces/components/AccountDeleteModal.tsx",
+          108
+        ]
+      ]
+    },
+    "tWPlLK": {
+      "translation": "{0, plural, one {# member, including you} other {# members, including you}}",
+      "message": "{0, plural, one {# member, including you} other {# members, including you}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/search/components/Search/ChannelSearchResultItem.tsx",
+          65
+        ],
+        [
+          "src/modules/sharing/components/SharePanel/ChannelSearchBar.tsx",
+          258
+        ],
+        [
+          "src/sections/home_v2/components/channels/ManageChannelsModal.tsx",
+          125
+        ]
+      ]
+    },
+    "pkIIls": {
+      "translation": "{0, plural, one {# member} other {# members}}",
+      "message": "{0, plural, one {# member} other {# members}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/search/components/Search/ChannelSearchResultItem.tsx",
+          71
+        ],
+        [
+          "src/modules/sharing/components/SharePanel/ChannelSearchBar.tsx",
+          264
+        ],
+        [
+          "src/sections/home_v2/components/channels/ManageChannelsModal.tsx",
+          131
+        ],
+        [
+          "src/sections/home_v2/components/DocsView/DocsViewTopbar/Header.tsx",
+          173
+        ]
+      ]
+    },
+    "vliZud": {
+      "translation": "{0, plural, one {# person following you} other {# people following you}}",
+      "message": "{0, plural, one {# person following you} other {# people following you}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/docs/editor/components/Toolbar/Collaborators.tsx",
+          314
+        ]
+      ]
+    },
+    "27Yldc": {
+      "translation": "{0, plural, one {# person is currently editing} other {# people are currently editing}}",
+      "message": "{0, plural, one {# person is currently editing} other {# people are currently editing}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/home_v2/components/DocsView/DocsViewTopbar/ChannelDocActivity.tsx",
+          47
+        ]
+      ]
+    },
+    "u2htxq": {
+      "translation": "{0, plural, one {# person is presenting now} other {# people are presenting now}}",
+      "message": "{0, plural, one {# person is presenting now} other {# people are presenting now}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/home_v2/components/DocsView/DocsViewTopbar/ChannelDocActivity.tsx",
+          85
+        ]
+      ]
+    },
+    "sC4bhw": {
+      "translation": "{0, plural, one {# person viewing or editing} other {# people viewing or editing}}",
+      "message": "{0, plural, one {# person viewing or editing} other {# people viewing or editing}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/docs/editor/components/Toolbar/Collaborators.tsx",
+          320
+        ]
+      ]
+    },
+    "BKBX4n": {
+      "translation": "{0, plural, one {+ # more viewer} other {+ # more viewers}}",
+      "message": "{0, plural, one {+ # more viewer} other {+ # more viewers}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/analytics/components/FullAnalyticsView.tsx",
+          297
+        ]
+      ]
+    },
+    "eVRfvp": {
+      "translation": "{0, plural, one {<0># {GAMMA_ARTIFACT_PROPER_NOUN}</0> is using this theme.} other {<1># {GAMMA_ARTIFACT_PROPER_NOUN_PLURAL}</1> are using this theme.}}",
+      "message": "{0, plural, one {<0># {GAMMA_ARTIFACT_PROPER_NOUN}</0> is using this theme.} other {<1># {GAMMA_ARTIFACT_PROPER_NOUN_PLURAL}</1> are using this theme.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/theming/ThemeConfiguration/components/ThemeEditor/ThemeEditorHeader.tsx",
+          199
+        ]
+      ]
+    },
+    "MU+gFM": {
+      "translation": "{0, plural, one {card} other {cards}}",
+      "message": "{0, plural, one {card} other {cards}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/ai/generator/components/shared/CardCountControls.tsx",
+          89
+        ]
+      ]
+    },
+    "GtH+14": {
+      "translation": "{0, plural, one {Copied card.} other {Copied {1} cards.}}",
+      "message": "{0, plural, one {Copied card.} other {Copied {1} cards.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/docs/editor/components/TableOfContents/Filmstrip/hooks/useFilmstripActions.tsx",
+          97
+        ]
+      ]
+    },
+    "VG4BD6": {
+      "translation": "{0, plural, one {Cut card.} other {Cut {1} cards.}}",
+      "message": "{0, plural, one {Cut card.} other {Cut {1} cards.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/docs/editor/components/TableOfContents/Filmstrip/hooks/useFilmstripActions.tsx",
+          91
+        ]
+      ]
+    },
+    "6Aby61": {
+      "translation": "{0, plural, one {Delete column} other {Delete # columns}}",
+      "message": "{0, plural, one {Delete column} other {Delete # columns}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/tiptap_editor/extensions/Chart/reactGrid/functions.ts",
+          878
+        ]
+      ]
+    },
+    "gJlU2T": {
+      "translation": "{0, plural, one {Delete row} other {Delete # rows}}",
+      "message": "{0, plural, one {Delete row} other {Delete # rows}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/tiptap_editor/extensions/Chart/reactGrid/functions.ts",
+          772
+        ]
+      ]
+    },
+    "OJTPnC": {
+      "translation": "{0, plural, one {Deleted {displayTitle}.} other {Deleted {1} cards.}}",
+      "message": "{0, plural, one {Deleted {displayTitle}.} other {Deleted {1} cards.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/docs/editor/components/TableOfContents/Filmstrip/hooks/useFilmstripActions.tsx",
+          154
+        ]
+      ]
+    },
+    "mjEyky": {
+      "translation": "{0, plural, one {Displaying # folder} other {Displaying # folders}}",
+      "message": "{0, plural, one {Displaying # folder} other {Displaying # folders}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/home_v2/components/channels/ManageChannelsModal.tsx",
+          338
+        ]
+      ]
+    },
+    "ClnFsQ": {
+      "translation": "{0, plural, one {Duplicated.} other {Duplicated {1} cards.}}",
+      "message": "{0, plural, one {Duplicated.} other {Duplicated {1} cards.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/docs/editor/components/TableOfContents/Filmstrip/hooks/useFilmstripActions.tsx",
+          244
+        ]
+      ]
+    },
+    "BZPFHo": {
+      "translation": "{0, plural, one {image} other {images}}",
+      "message": "{0, plural, one {image} other {images}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/theming/components/AccentImagePicker.tsx",
+          293
+        ]
+      ]
+    },
+    "Ka86rB": {
+      "translation": "{0, plural, one {Invitation sent} other {Invitations sent}}",
+      "message": "{0, plural, one {Invitation sent} other {Invitations sent}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/sharing/components/SharePanel/CollaboratorSearchBar.tsx",
+          379
+        ],
+        [
+          "src/modules/workspaces/components/WorkspaceSettingsPage/WorkspaceInviteByEmail.tsx",
+          98
+        ]
+      ]
+    },
+    "3viq5b": {
+      "translation": "{0, plural, one {Pasted card.} other {Pasted {1} cards.}}",
+      "message": "{0, plural, one {Pasted card.} other {Pasted {1} cards.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/docs/editor/components/TableOfContents/Filmstrip/hooks/useHandleFilmstripPaste.tsx",
+          97
+        ]
+      ]
+    },
+    "3TQHDg": {
+      "translation": "{0, plural, one {Publish to domain} other {Publish to domains}}",
+      "message": "{0, plural, one {Publish to domain} other {Publish to domains}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/docs/editor/components/Toolbar/PublishSiteMenuItem.tsx",
+          26
+        ]
+      ]
+    },
+    "0/T2Xv": {
+      "translation": "{0, plural, one {Upscale and download # image} other {Upscale and download # images}}",
+      "message": "{0, plural, one {Upscale and download # image} other {Upscale and download # images}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/media/components/AIGeneratedImages/UpscaleDownload.tsx",
+          197
+        ]
+      ]
+    },
+    "RfkEBH": {
+      "translation": "{0, plural, other {# of {1}}}",
+      "message": "{0, plural, other {# of {1}}}",
+      "comments": [
+        "This refers to x step of y total number of steps in a tour component consisting of multiple steps"
+      ],
+      "origin": [
+        [
+          "src/modules/editorOnboarding/components/ChecklistWidget/PreOnboardingChecklistTour/Tour.tsx",
+          267
+        ]
+      ]
+    },
+    "J/hVSQ": {
+      "translation": "{0}",
+      "message": "{0}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/tiptap_editor/extensions/Chart/useChartContextMenuItems.tsx",
+          132
+        ]
+      ]
+    },
+    "866PMb": {
+      "translation": "{0} (You)",
+      "message": "{0} (You)",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/tiptap_editor/extensions/Annotatable/components/Comments/Comment.tsx",
+          633
+        ],
+        [
+          "src/modules/tiptap_editor/extensions/Annotatable/components/CreateTopLevelComment.tsx",
+          45
+        ]
+      ]
+    },
+    "UMxKSW": {
+      "translation": "{0} AI token inputs",
+      "message": "{0} AI token inputs",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/monetization/components/UpsellModal/constants.tsx",
+          90
+        ],
+        [
+          "src/modules/monetization/components/UpsellModal/constants.tsx",
+          124
+        ],
+        [
+          "src/modules/monetization/components/UpsellModal/constants.tsx",
+          170
+        ]
+      ]
+    },
+    "hRcVGy": {
+      "translation": "{0} billed annually",
+      "message": "{0} billed annually",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/monetization/components/UpsellModal/ProductDetails.tsx",
+          155
+        ]
+      ]
+    },
+    "6v+N4U": {
+      "translation": "{0} columns",
+      "message": "{0} columns",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/tiptap_editor/components/menus/FormattingMenus/LayoutFormattingMenu.tsx",
+          113
+        ]
+      ]
+    },
+    "KNjuGh": {
+      "translation": "{0} Contributors",
+      "message": "{0} Contributors",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/tiptap_editor/extensions/Contributors/ContributorsView.tsx",
+          142
+        ]
+      ]
+    },
+    "bxVoEp": {
+      "translation": "{0} edited {1} ago",
+      "message": "{0} edited {1} ago",
+      "comments": [],
+      "origin": [
+        [
+          "src/gamma_components/DocumentGrid/DocumentGridItem.tsx",
+          156
+        ],
+        [
+          "src/modules/tiptap_editor/extensions/Contributors/ContributorsView.tsx",
+          106
+        ]
+      ]
+    },
+    "cHJvHu": {
+      "translation": "{0} exceeds the maximum file size of 200 MB",
+      "message": "{0} exceeds the maximum file size of 200 MB",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/import/upload/useUppyForPptUpload.tsx",
+          37
+        ],
+        [
+          "src/modules/theming/ThemeConfiguration/ThemeImporter/ThemeImporterUpload.tsx",
+          226
+        ]
+      ]
+    },
+    "oKPro/": {
+      "translation": "{0} If they sign in they'll be added as a collaborator with comment permission.",
+      "message": "{0} If they sign in they'll be added as a collaborator with comment permission.",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/sharing/components/SharePanel/Share.tsx",
+          65
+        ]
+      ]
+    },
+    "2gPY9r": {
+      "translation": "{0} If they sign in they'll be added as a collaborator with edit permission.",
+      "message": "{0} If they sign in they'll be added as a collaborator with edit permission.",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/sharing/components/SharePanel/Share.tsx",
+          69
+        ]
+      ]
+    },
+    "T8aKxO": {
+      "translation": "{0} layout",
+      "message": "{0} layout",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/tiptap_editor/extensions/Card/CardLayout/CardAccent/cardAccentUtils.ts",
+          64
+        ]
+      ]
+    },
+    "ELg7Zs": {
+      "translation": "{0} lets you scale or shrink your content into as many cards as you want. For example, you can turn a long document into a concise presentation.",
+      "message": "{0} lets you scale or shrink your content into as many cards as you want. For example, you can turn a long document into a concise presentation.",
+      "comments": [
+        "The variable refers to the display name for 'freeform mode'"
+      ],
+      "origin": [
+        [
+          "src/modules/ai/generator/components/AIGeneratorTipsAndInstructions.tsx",
+          49
+        ]
+      ]
+    },
+    "iKG7iK": {
+      "translation": "{0} lets you specify exactly where card breaks should go, so you can outline your content card by card.",
+      "message": "{0} lets you specify exactly where card breaks should go, so you can outline your content card by card.",
+      "comments": [
+        "The variable refers to the display name for 'card-by-card mode'"
+      ],
+      "origin": [
+        [
+          "src/modules/ai/generator/components/AIGeneratorTipsAndInstructions.tsx",
+          61
+        ]
+      ]
+    },
+    "d+UedU": {
+      "translation": "{0} shared with you from other workspaces will appear here.",
+      "message": "{0} shared with you from other workspaces will appear here.",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/home_v2/components/DocsEmptyState.tsx",
+          28
+        ]
+      ]
+    },
+    "DSaSKH": {
+      "translation": "{0} started following you.",
+      "message": "{0} started following you.",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/docs/editor/components/Toolbar/Collaborators.tsx",
+          83
+        ]
+      ]
+    },
+    "Bb4CDv": {
+      "translation": "{0}? Sounds interesting! <0/>Let me come up with a few ideas...",
+      "message": "{0}? Sounds interesting! <0/>Let me come up with a few ideas...",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/ai/wizard/components/GuidedMode/GuidedModeChat/GuidedModeChat.tsx",
+          277
+        ]
+      ]
+    },
+    "sNvodR": {
+      "translation": "{0}/{totalSteps}",
+      "message": "{0}/{totalSteps}",
+      "comments": [
+        "Steps completed out of a total number of steps"
+      ],
+      "origin": [
+        [
+          "src/modules/editorOnboarding/components/ChecklistWidget/OnboardingChecklist/OnboardingChecklistActivator.tsx",
+          79
+        ]
+      ]
+    },
+    "llY0P5": {
+      "translation": "{0}/{totalSteps} completed",
+      "message": "{0}/{totalSteps} completed",
+      "comments": [
+        "Steps completed out of a total number of steps"
+      ],
+      "origin": [
+        [
+          "src/modules/editorOnboarding/components/ChecklistWidget/OnboardingChecklist/List/ChecklistList.tsx",
+          68
+        ]
+      ]
+    },
+    "gcpsjO": {
+      "translation": "{adjustedCardCount, plural, one {# cards} other {# cards}}",
+      "message": "{adjustedCardCount, plural, one {# cards} other {# cards}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/ai/generator/components/settings/CardCountSettings.tsx",
+          82
+        ]
+      ]
+    },
+    "M3I7Cf": {
+      "translation": "{aiAddCard, plural, one {# credit per card you create.} other {# credits per card you create.}}",
+      "message": "{aiAddCard, plural, one {# credit per card you create.} other {# credits per card you create.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/credits/components/AICreditsFAQ.tsx",
+          62
+        ]
+      ]
+    },
+    "AJ11w6": {
+      "translation": "{aiAutocomplete, plural, one {# credit each time you use {AUTOCOMPLETE_SLASH_SHORTCUT} or {AUTOCOMPLETE_INPUT_SHORTCUT}.} other {# credits each time you use {AUTOCOMPLETE_SLASH_SHORTCUT} or {AUTOCOMPLETE_INPUT_SHORTCUT}.}}",
+      "message": "{aiAutocomplete, plural, one {# credit each time you use {AUTOCOMPLETE_SLASH_SHORTCUT} or {AUTOCOMPLETE_INPUT_SHORTCUT}.} other {# credits each time you use {AUTOCOMPLETE_SLASH_SHORTCUT} or {AUTOCOMPLETE_INPUT_SHORTCUT}.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/credits/components/AICreditsFAQ.tsx",
+          99
+        ]
+      ]
+    },
+    "8HgQlf": {
+      "translation": "{aiEditing, plural, one {# credit per AI suggestion (eg. finding images, rewriting content)} other {# credits per AI suggestion (eg. finding images, rewriting content).}}",
+      "message": "{aiEditing, plural, one {# credit per AI suggestion (eg. finding images, rewriting content)} other {# credits per AI suggestion (eg. finding images, rewriting content).}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/credits/components/AICreditsFAQ.tsx",
+          73
+        ]
+      ]
+    },
+    "XSCvWA": {
+      "translation": "{aiGeneration, plural, one {# credit per {GAMMA_ARTIFACT_PROPER_NOUN} you create.} other {# credits per {GAMMA_ARTIFACT_PROPER_NOUN} you create.}}",
+      "message": "{aiGeneration, plural, one {# credit per {GAMMA_ARTIFACT_PROPER_NOUN} you create.} other {# credits per {GAMMA_ARTIFACT_PROPER_NOUN} you create.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/credits/components/AICreditsFAQ.tsx",
+          51
+        ]
+      ]
+    },
+    "OY40J+": {
+      "translation": "{aiImages, plural, one {# credit per image prompt.} other {# credits per image prompt.}}",
+      "message": "{aiImages, plural, one {# credit per image prompt.} other {# credits per image prompt.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/credits/components/AICreditsFAQ.tsx",
+          87
+        ]
+      ]
+    },
+    "IniQ/K": {
+      "translation": "{availableCredits, plural, one {# credit} other {# credits}}",
+      "message": "{availableCredits, plural, one {# credit} other {# credits}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/home_v2/components/DashboardTopbar/DashboardAICreditsButton.tsx",
+          64
+        ]
+      ]
+    },
+    "Psk6LY": {
+      "translation": "{cardCount, plural, one {# card total} other {# cards total}}",
+      "message": "{cardCount, plural, one {# card total} other {# cards total}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/ai/generator/components/content/AIGeneratorContent.tsx",
+          252
+        ]
+      ]
+    },
+    "AZLIlg": {
+      "translation": "{cardCount, plural, one {# cards total} other {# cards total}}",
+      "message": "{cardCount, plural, one {# cards total} other {# cards total}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/ai/generator/components/settings/CardCountSettings.tsx",
+          69
+        ]
+      ]
+    },
+    "bM4Wv5": {
+      "translation": "{count, plural, one {# card} other {# cards}}",
+      "message": "{count, plural, one {# card} other {# cards}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/ai/generator/components/shared/CardCountControls.tsx",
+          185
+        ],
+        [
+          "src/modules/ai/generator/components/shared/CardCountControls.tsx",
+          203
+        ]
+      ]
+    },
+    "eiUA4k": {
+      "translation": "{count, plural, one {# comment} other {# comments}}",
+      "message": "{count, plural, one {# comment} other {# comments}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/docs/editor/components/CommentFeed/CommentFeedHeader.tsx",
+          53
+        ]
+      ]
+    },
+    "T57gLR": {
+      "translation": "{credits, plural, one {# credit} other {# credits}}",
+      "message": "{credits, plural, one {# credit} other {# credits}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/credits/components/AICreditsModal.tsx",
+          166
+        ],
+        [
+          "src/modules/credits/components/CreditsBadge.tsx",
+          78
+        ]
+      ]
+    },
+    "qQLmo7": {
+      "translation": "{dayCount, plural, one {No viewers to display for the last day} other {No viewers to display for the last # days}}",
+      "message": "{dayCount, plural, one {No viewers to display for the last day} other {No viewers to display for the last # days}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/analytics/components/FullAnalyticsView.tsx",
+          411
+        ]
+      ]
+    },
+    "Ff/YaY": {
+      "translation": "{defaultFont} ({GAMMA_PROPER_NOUN} default)",
+      "message": "{defaultFont} ({GAMMA_PROPER_NOUN} default)",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/theming/components/FontPicker.tsx",
+          134
+        ]
+      ]
+    },
+    "Dj1qYd": {
+      "translation": "{doneCount, plural, one {# card edited} other {# cards edited}}",
+      "message": "{doneCount, plural, one {# card edited} other {# cards edited}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/sections/docs/editor/components/Toolbar/EditDocAIBlock.tsx",
+          299
+        ]
+      ]
+    },
+    "jkCRxy": {
+      "translation": "{emailWithName} was successfully removed from your workspace.",
+      "message": "{emailWithName} was successfully removed from your workspace.",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/workspaces/components/WorkspaceSettingsPage/MembersList.tsx",
+          254
+        ]
+      ]
+    },
+    "DgKz0c": {
+      "translation": "{GAMMA_PROPER_NOUN} cannot sync your changes right now.",
+      "message": "{GAMMA_PROPER_NOUN} cannot sync your changes right now.",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/tiptap_editor/CollaborativeEditor/persistenceSync/index.tsx",
+          81
+        ]
+      ]
+    },
+    "PX8jn2": {
+      "translation": "{GAMMA_PROPER_NOUN} currently only supports membership in a single workspace. Let us know at {GAMMA_SUPPORT_EMAIL_ADDRESS} if you need access to more than one workspace",
+      "message": "{GAMMA_PROPER_NOUN} currently only supports membership in a single workspace. Let us know at {GAMMA_SUPPORT_EMAIL_ADDRESS} if you need access to more than one workspace",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/errors/index.tsx",
+          54
+        ]
+      ]
+    },
+    "flElqq": {
+      "translation": "{GAMMA_PROPER_NOUN} has successfully synced your changes.",
+      "message": "{GAMMA_PROPER_NOUN} has successfully synced your changes.",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/tiptap_editor/CollaborativeEditor/persistenceSync/index.tsx",
+          311
+        ]
+      ]
+    },
+    "BM8j3v": {
+      "translation": "{GAMMA_PROPER_NOUN} is having trouble syncing your changes right now.",
+      "message": "{GAMMA_PROPER_NOUN} is having trouble syncing your changes right now.",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/tiptap_editor/CollaborativeEditor/persistenceSync/index.tsx",
+          76
+        ],
+        [
+          "src/modules/tiptap_editor/CollaborativeEditor/persistenceSync/index.tsx",
+          130
+        ]
+      ]
+    },
+    "GYK/1H": {
+      "translation": "{GAMMA_PROPER_NOUN} supports .ttf and .otf fonts",
+      "message": "{GAMMA_PROPER_NOUN} supports .ttf and .otf fonts",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/fonts/components/FontCategorizationView.tsx",
+          88
+        ],
+        [
+          "src/modules/fonts/components/FontUploadInfoView.tsx",
+          166
+        ]
+      ]
+    },
+    "SikK9S": {
+      "translation": "{GAMMA_PROPER_NOUN} uses cards to contain your content",
+      "message": "{GAMMA_PROPER_NOUN} uses cards to contain your content",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/editorOnboarding/components/ChecklistWidget/PreOnboardingChecklistTour/tourData.tsx",
+          38
+        ]
+      ]
+    },
+    "DZCfCB": {
+      "translation": "{GAMMA_PROPER_NOUN} will use your card content to enhance or write prompt for you",
+      "message": "{GAMMA_PROPER_NOUN} will use your card content to enhance or write prompt for you",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/ai_theme_builder/components/SandboxAiThemeBuilderGenerate.tsx",
+          158
+        ]
+      ]
+    },
+    "LwcIt2": {
+      "translation": "{GAMMA_PROPER_NOUN} will use your card content to enhance your existing prompt or write a new one for you",
+      "message": "{GAMMA_PROPER_NOUN} will use your card content to enhance your existing prompt or write a new one for you",
+      "context": "Tooltip",
+      "comments": [
+        "This tooltip is displayed when the user hovers over the enhance prompt button to explain what clicking on it will do."
+      ],
+      "origin": [
+        [
+          "src/modules/media/components/AIGeneratedImages/AIImageEnhanceButton.tsx",
+          25
+        ]
+      ]
+    },
+    "JAtlMu": {
+      "translation": "{GAMMA_PROPER_NOUN} works best on Chrome desktop.",
+      "message": "{GAMMA_PROPER_NOUN} works best on Chrome desktop.",
+      "comments": [],
+      "origin": [
+        [
+          "src/gamma_components/Butterbar/butterbars.tsx",
+          68
+        ]
+      ]
+    },
+    "3S0+Wy": {
+      "translation": "{GAMMA_PROPER_NOUN} works best on Chrome.",
+      "message": "{GAMMA_PROPER_NOUN} works best on Chrome.",
+      "comments": [],
+      "origin": [
+        [
+          "src/gamma_components/Butterbar/butterbars.tsx",
+          80
+        ]
+      ]
+    },
+    "6dWGPZ": {
+      "translation": "{invitationCount, plural, one {Send invitation} other {Send invitations}}",
+      "message": "{invitationCount, plural, one {Send invitation} other {Send invitations}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/invitations/UnsentInvitationsModal.tsx",
+          64
+        ]
+      ]
+    },
+    "tW/kB6": {
+      "translation": "{invitationCount, plural, one {Unsent invitation} other {Unsent invitations}}",
+      "message": "{invitationCount, plural, one {Unsent invitation} other {Unsent invitations}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/invitations/UnsentInvitationsModal.tsx",
+          42
+        ]
+      ]
+    },
+    "qxNK2k": {
+      "translation": "{invitationCount, plural, one {You have # unsent invitation. Do you want to discard or send it?} other {You have # unsent invitations. Do you want to discard or send them?}}",
+      "message": "{invitationCount, plural, one {You have # unsent invitation. Do you want to discard or send it?} other {You have # unsent invitations. Do you want to discard or send them?}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/invitations/UnsentInvitationsModal.tsx",
+          51
+        ]
+      ]
+    },
+    "F6GBat": {
+      "translation": "{memberCount, plural, one {# member} other {# members}}",
+      "message": "{memberCount, plural, one {# member} other {# members}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/workspaces/components/WorkspaceSwitcher.tsx",
+          93
+        ]
+      ]
+    },
+    "cbRq5v": {
+      "translation": "{MICROSOFT_PROPER_NOUN} {WORD_PROPER_NOUN}, {POWERPOINT_PROPER_NOUN}, {EXCEL_PROPER_NOUN}, or {ONENOTE_PROPER_NOUN}",
+      "message": "{MICROSOFT_PROPER_NOUN} {WORD_PROPER_NOUN}, {POWERPOINT_PROPER_NOUN}, {EXCEL_PROPER_NOUN}, or {ONENOTE_PROPER_NOUN}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/media/providers/MicrosoftOffice/provider.ts",
+          17
+        ]
+      ]
+    },
+    "yA1Sb+": {
+      "translation": "{MIRO_PROPER_NOUN} board",
+      "message": "{MIRO_PROPER_NOUN} board",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/media/providers/Miro/provider.ts",
+          10
+        ]
+      ]
+    },
+    "hJZ5XP": {
+      "translation": "{name} is not a member of the {workspaceName} workspace. If you invite them to this workspace, they’ll have access to {GAMMA_ARTIFACT_PROPER_NOUN_PLURAL} shared with workspace members.",
+      "message": "{name} is not a member of the {workspaceName} workspace. If you invite them to this workspace, they’ll have access to {GAMMA_ARTIFACT_PROPER_NOUN_PLURAL} shared with workspace members.",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/sharing/components/SharePanel/WorkspaceInviteForGuests.tsx",
+          80
+        ]
+      ]
+    },
+    "B9zUUN": {
+      "translation": "{newMemberCount, plural, one {Add paid user?} other {Add paid users?}}",
+      "message": "{newMemberCount, plural, one {Add paid user?} other {Add paid users?}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/workspaces/components/WorkspaceSettingsPage/ConfirmAddPaidMemberModal.tsx",
+          152
+        ]
+      ]
+    },
+    "WMsmjg": {
+      "translation": "{newMemberCount, plural, one {Add paid user} other {Add # paid users}}",
+      "message": "{newMemberCount, plural, one {Add paid user} other {Add # paid users}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/workspaces/components/WorkspaceSettingsPage/ConfirmAddPaidMemberModal.tsx",
+          197
+        ]
+      ]
+    },
+    "JKIwMd": {
+      "translation": "{newMemberCount, plural, one {I agree to an additional charge of <0>{totalPrice} per month</0> to add one new user to my workspace.} other {I agree to an additional charge of <1>{totalPrice} per month</1> to add {newMemberCount} new users to my workspace.}}",
+      "message": "{newMemberCount, plural, one {I agree to an additional charge of <0>{totalPrice} per month</0> to add one new user to my workspace.} other {I agree to an additional charge of <1>{totalPrice} per month</1> to add {newMemberCount} new users to my workspace.}}",
+      "comments": [],
+      "origin": [
+        [
+          "src/modules/workspaces/components/WorkspaceSettingsPage/ConfirmAddPaidMemberModal.tsx",
+          110
+        ]
+      ]
+    }
+}   
