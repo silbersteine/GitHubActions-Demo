@@ -22,4 +22,5 @@ jobs:
             app/src/main/res/values
           name_pattern: "*.xml"
           file_format: xml
+          rambo_mode: true
           additional_params: 
