@@ -1,23 +1,26 @@
-name: Push to Lokalise
+name: ARLO Push
 on:
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Push files to Lokalise
-        uses: lokalise/lokalise-push-action@v3.1.2
+      - name: Push to Lokalise
+        uses: lokalise/lokalise-push-action@v3.1.1
         with:
           api_token: ${{ secrets.LOKALISE_API_TOKEN }}
           project_id: 728044426499ab4e96ee46.18204254
-          file_format: xml
-          translations_path: app/src/main/res/values*
-          name_pattern: "strings.xml"
           base_lang: en
+          translations_path: |
+            app/src/main/res/values
+          name_pattern: "*.xml"
+          file_format: xml
           rambo_mode: true
+          additional_params: 
