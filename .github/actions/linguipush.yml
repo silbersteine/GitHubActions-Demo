@@ -1,0 +1,246 @@
+name: 'Lingui Push to Lokalise'
+description: 'GitHub action to upload changed translation files in the base language from your GitHub repository to Lokalise TMS.'
+author: 'Lokalise Group, Ilya Krukowski, Eric Silberstein'
+inputs:
+  api_token:
+    description: 'API token for Lokalise with read/write permissions'
+    required: true
+    secret: true
+  project_id:
+    description: 'Project ID for Lokalise'
+    required: true
+  base_lang:
+    description: 'Base language (e.g., en, fr_FR)'
+    required: true
+    default: 'en'
+  translations_path:
+    description: 'Paths to translation files'
+    required: true
+    default: |
+      locales
+  file_format:
+    description: 'Format of the translation files (e.g., json). Find all supported file formats at https://developers.lokalise.com/reference/api-file-formats'
+    required: true
+    default: 'json'
+  file_ext:
+    description: 'Custom file extension to use when searching for translation files (without leading dot). By default, the extension is inferred from the file_format value. However, for certain formats (e.g., json_structured), the downloaded files may still have a generic extension (e.g., .json). In such cases, this parameter allows specifying the correct extension manually to ensure proper file matching.'
+    required: false
+    default: ''
+  additional_params:
+    description: 'Additional parameters for Lokalise CLI on push. Find all supported options at https://github.com/lokalise/lokalise-cli-2-go/blob/main/docs/lokalise2_file_upload.md'
+    required: false
+    default: ''
+  flat_naming:
+    description: 'Use flat naming convention (true/false). If true, expects files like locales/en.json instead of locales/en/file.json'
+    required: false
+    default: false
+  name_pattern:
+    description: 'Custom pattern for naming translation files. Overrides default language-based naming. Must include both filename and extension if applicable (e.g., "custom_name.json" or "**.yaml"). Default behavior is used if not set.'
+    required: false
+    default: ''
+  skip_tagging:
+    description: 'Do not assign tags to the uploaded translation keys on Lokalise'
+    required: false
+    default: false
+  skip_polling:
+    description: 'Do not wait for the upload operation to be marked as completed on Lokalise'
+    required: false
+    default: false
+  skip_default_flags:
+    description: 'Do not set any extra flags for the upload command'
+    required: false
+    default: false
+  rambo_mode:
+    description: 'Always upload all translation files for the base language regardless of changes'
+    required: false
+    default: false
+  max_retries:
+    description: 'Maximum number of retries on rate limit errors'
+    required: false
+    default: 3
+  sleep_on_retry:
+    description: 'Number of seconds to sleep before retrying'
+    required: false
+    default: 1
+  upload_timeout:
+    description: 'Timeout for the upload operation (in seconds)'
+    required: false
+    default: 120
+  upload_poll_timeout:
+    description: 'Timeout for the upload poll operation (in seconds)'
+    required: false
+    default: 120
+  platform:
+    description: 'Target platform for the binary (linux_amd64, linux_arm64, mac_amd64, mac_arm64)'
+    required: false
+    default: 'linux_amd64'
+permissions:
+  contents: write
+branding:
+  icon: 'upload-cloud'
+  color: 'green'
+outputs:
+  initial_run:
+    description: 'A boolean value indicating whether this is the initial run on the branch.'
+    value: ${{ steps.check-first-run.outputs.first_run }}
+  files_uploaded:
+    description: 'A boolean value indicating whether any files were uploaded to Lokalise.'
+    value: ${{ steps.check-files-upload.outputs.files_uploaded }}
+
+runs:
+  using: "composite"
+  steps:
+    - name: Set translation paths
+      id: translation-paths
+      shell: bash
+      env:
+        TRANSLATIONS_PATH: "${{ inputs.translations_path }}"
+        FLAT_NAMING: "${{ inputs.flat_naming }}"
+        BASE_LANG: "${{ inputs.base_lang }}"
+        FILE_FORMAT: "${{ inputs.file_format }}"
+        FILE_EXT: "${{ inputs.file_ext }}"
+        NAME_PATTERN: "${{ inputs.name_pattern }}"
+        PLATFORM: "${{ inputs.platform }}"
+      run: |
+        set -e
+
+        CMD_PATH="${{ github.action_path }}/bin/store_translation_paths_${PLATFORM}"
+        if [ ! -f "$CMD_PATH" ]; then
+          echo "Error: Binary for platform '${PLATFORM}' not found!"
+          exit 1
+        fi
+        chmod +x "$CMD_PATH"
+        $("$CMD_PATH") || {
+          echo "Error: store_translation_paths script failed with exit code $?"
+          exit 1
+        }
+
+    - name: Get changed files
+      if: inputs.rambo_mode != 'true'
+      id: changed-files
+      uses: tj-actions/changed-files@v45
+      with:
+        files_from_source_file: lok_action_paths_temp.txt
+        separator: ','
+
+    - name: Check if this is the first run on the branch
+      id: check-first-run
+      shell: bash
+      run: |
+        set -e
+
+        if git rev-parse "refs/tags/lokalise-upload-complete" >/dev/null 2>&1; then
+          echo "first_run=false" >> $GITHUB_OUTPUT
+        else
+          echo "first_run=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Find all translation files
+      if: inputs.rambo_mode == 'true' || (steps.changed-files.outputs.any_changed == 'false' && steps.check-first-run.outputs.first_run == 'true')
+      id: find-files
+      shell: bash
+      env:
+        TRANSLATIONS_PATH: "${{ inputs.translations_path }}"
+        BASE_LANG: "${{ inputs.base_lang }}"
+        FILE_FORMAT: "${{ inputs.file_format }}"
+        FILE_EXT: "${{ inputs.file_ext }}"
+        FLAT_NAMING: "${{ inputs.flat_naming }}"
+        NAME_PATTERN: "${{ inputs.name_pattern }}"
+        PLATFORM: "${{ inputs.platform }}"
+      run: |
+        set -e
+        
+        CMD_PATH="${{ github.action_path }}/bin/find_all_files_${PLATFORM}"
+        if [ ! -f "$CMD_PATH" ]; then
+          echo "Error: Binary for platform '${PLATFORM}' not found!"
+          exit 1
+        fi
+        chmod +x "$CMD_PATH"
+        $("$CMD_PATH") || {
+          echo "Error: find_all_files script failed with exit code $?"
+          exit 1
+        }
+
+    - name: Install Lokalise CLIv2
+      if: steps.find-files.outputs.has_files == 'true' || steps.changed-files.outputs.any_changed == 'true'
+      uses: bodrovis/install-lokalise-cli-v2@v1.0.2
+
+    - name: Convert lingui JSON to Lokalise structured JSON
+      
+
+    - name: Push translation files to Lokalise
+      if: steps.find-files.outputs.has_files == 'true' || steps.changed-files.outputs.any_changed == 'true'
+      id: push-translation-files
+      shell: bash
+      env:
+        BASE_LANG: ${{ inputs.base_lang }}
+        CLI_ADD_PARAMS: ${{ inputs.additional_params }}
+        MAX_RETRIES: ${{ inputs.max_retries }}
+        SLEEP_TIME: ${{ inputs.sleep_on_retry }}
+        UPLOAD_TIMEOUT: ${{ inputs.upload_timeout }}
+        UPLOAD_POLL_TIMEOUT: ${{ inputs.upload_poll_timeout }}
+        SKIP_TAGGING: ${{ inputs.skip_tagging }}
+        SKIP_POLLING: ${{ inputs.skip_polling }}
+        SKIP_DEFAULT_FLAGS: ${{ inputs.skip_default_flags }}
+        PLATFORM: "${{ inputs.platform }}"
+      run: |
+        set -e
+
+        if [ "${{ inputs.rambo_mode }}" == "true" ] || \
+          ( [ "${{ steps.changed-files.outputs.any_changed }}" == "false" ] && [ "${{ steps.check-first-run.outputs.first_run }}" == "true" ] ); then
+          FILES="${{ steps.find-files.outputs.ALL_FILES }}"
+        else
+          FILES="${{ steps.changed-files.outputs.all_changed_files }}"
+        fi
+
+        if [ -z "$FILES" ]; then
+          echo "No files to upload."
+          exit 1
+        fi
+
+        CMD_PATH="${{ github.action_path }}/bin/lokalise_upload_${PLATFORM}"
+        if [ ! -f "$CMD_PATH" ]; then
+          echo "Error: Binary for platform '${PLATFORM}' not found!"
+          exit 1
+        fi
+        chmod +x "$CMD_PATH"
+
+        set +e
+        echo "$FILES" | tr ',' '\n' | xargs -P 6 -I {} "$CMD_PATH" "{}" "${{ inputs.project_id }}" "${{ inputs.api_token }}"
+        xargs_exit_code=$?
+        set -e
+
+        if [ $xargs_exit_code -ne 0 ]; then
+          echo "File upload failed"
+          exit 1
+        fi
+
+        echo "files_uploaded=true" >> $GITHUB_OUTPUT
+
+    - name: Mark Lokalise upload as complete
+      if: steps.check-first-run.outputs.first_run == 'true'
+      shell: bash
+      run: |
+        set -e
+
+        git config --global user.name "${GITHUB_ACTOR}"
+        git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
+        git fetch --tags
+
+        if git ls-remote --tags origin | grep -q "refs/tags/lokalise-upload-complete$"; then
+          echo "Tag 'lokalise-upload-complete' already exists in remote."
+        else
+          git tag -a "lokalise-upload-complete" -m "First Lokalise upload complete"
+          git push origin "lokalise-upload-complete"
+        fi
+
+    - name: Verify file upload success
+      id: check-files-upload
+      shell: bash
+      run: |
+        if [ "${{ steps.push-translation-files.outputs.files_uploaded }}" != "true" ]; then
+          echo "files_uploaded=false" >> $GITHUB_OUTPUT
+        else
+          echo "files_uploaded=true" >> $GITHUB_OUTPUT
+        fi

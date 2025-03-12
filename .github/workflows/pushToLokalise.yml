@@ -22,4 +22,8 @@ jobs:
             locales
             actions/config/locales
           file_format: json
+          rambo_mode: true
+          skip_polling: true
+          skip_default_flags: true
           additional_params: 
+            
