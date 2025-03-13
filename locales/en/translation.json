@@ -1,3 +1,4 @@
 {
-    "key1": "Hello Lokal ise !! This key is from locales/en/translation.json this is for you   !"
+    "key1": "Hello Lokal ise !! This key is from locales/en/translation.json this is for you   !",
+    "livekey": "hello world"
 }
