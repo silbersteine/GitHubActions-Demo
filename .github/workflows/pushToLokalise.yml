@@ -20,7 +20,7 @@ jobs:
           base_lang: en
           translations_path: |
             locales
-            actions/config/locales
+            config/locales
           file_format: json
           rambo_mode: true
           skip_default_flags: false
