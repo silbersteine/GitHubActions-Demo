@@ -20,6 +20,6 @@ jobs:
           project_id: 728044426499ab4e96ee46.18204254
           translations_path: |
             locales
-            actions/config/locales
+            config/locales
           file_format: json
           additional_params: 
