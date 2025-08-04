@@ -22,6 +22,7 @@ jobs:
             locales
             config/locales
           file_format: json
+          rambo_mode: true
           use_tag_tracking: true
           skip_default_flags: false
           skip_tagging: false
