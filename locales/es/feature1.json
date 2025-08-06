@@ -1,0 +1,12 @@
+{
+    "activityAnalytics": "Análisis básico de actividad",
+    "aiMeetingSummaries": "Resúmenes de reuniones generados por IA",
+    "customBranding": "Marca personalizada desactivada",
+    "integrationsAvailable": "Integraciones disponibles: Slack, Google Calendar, Trello",
+    "maxStorageGB": "Almacenamiento máximo: 500 GB",
+    "multiLanguageSupport": "Admite varios idiomas",
+    "prioritySupport": "Soporte prioritario no incluido",
+    "realtimeCollaboration": "Colaboración en tiempo real",
+    "taskAutomationEnabled": "Automatización de tareas habilitada",
+    "userLimit": "Límite de usuarios: 100 usuarios"
+}
