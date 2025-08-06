@@ -1,0 +1,12 @@
+{
+    "accountDeletionWarning": "¿Estás seguro de que deseas eliminar tu cuenta? Esta acción es irreversible.",
+    "dashboardWelcomeMessage": "Bienvenido a tu panel personalizado",
+    "dataSyncStatus": "Los datos se están sincronizando en segundo plano",
+    "emailNotificationsSetting": "Las notificaciones por correo electrónico están habilitadas actualmente",
+    "featureUsageLimit": "Has alcanzado el límite de uso para esta función",
+    "feedbackRequestMessage": "Valoramos tus comentarios. Cuéntanos cómo lo estamos haciendo.",
+    "mobileAppDownloadCTA": "Descarga nuestra aplicación móvil para acceder dondequiera que estés",
+    "supportContactInfo": "Contacta con el soporte en support@example.com para obtener ayuda",
+    "teamInviteSuccess": "Tu miembro del equipo ha sido invitado correctamente",
+    "upgradePlanPrompt": "Mejora tu plan para desbloquear más funciones"
+}
