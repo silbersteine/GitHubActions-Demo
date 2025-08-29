@@ -1,5 +1,6 @@
 {
     "key1": "Hello Lokal ise !! This key is from locales/en/translation.json this is for you   !",
     "livekey": "hello world",
-    "tagtest": "testasdfasdf and update"
+    "tagtest": "testasdfasdf and update",
+    "newkey": "newkey"
 }
