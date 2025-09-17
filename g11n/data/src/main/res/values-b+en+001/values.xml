@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Demo App</string>
+    <string name="welcome_message">Welcome to the app!</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="logout_button">Logout</string>
+    <string name="settings_title">Settings</string>
+    <string name="profile_title">Profile</string>
+    <string name="error_network">Network error. Please try again.</string>
+    <string name="success_message">Operation successful!</string>
+    <string name="loading_message">Loading, please wait...</string>
+</resources>
