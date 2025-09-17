@@ -24,10 +24,30 @@ jobs:
           force_push: true
           skip_include_tags: true
           post_process_command: |
-            if [ -d "g11n/data/src/main/res/values/b+es+419" ]; then
-                mv g11n/data/src/main/res/values/b+es+419 g11n/data/src/main/res/values-b+es+419
-                git add g11n/data/src/main/res/values-b+es+419
-                git rm -r g11n/data/src/main/res/values/b+es+419
+            set -euo pipefail
+
+            # Lokalise TRANSLATIONS_PATH env variable
+            translations_path="${TRANSLATIONS_PATH:-g11n/data/src/main/res/values}"
+
+            old_dir="$translations_path/b+es+419"
+            new_dir="$(dirname "$translations_path")/values-b+es+419"
+
+            if [ -d "$old_dir" ]; then
+                echo "Renaming $old_dir -> $new_dir"
+
+                # Ensure parent exists
+                mkdir -p "$(dirname "$new_dir")"
+
+                # Rename folder (moves contents)
+                mv "$old_dir" "$new_dir"
+
+                # Update Git index so commit script sees the new path
+                git add "$new_dir"
+                git rm -r --cached "$old_dir" || true
+
+                echo "Spanish folder rename staged for commit."
+            else
+                echo "No Spanish folder found at $old_dir"
             fi
           additional_params: >
             {
