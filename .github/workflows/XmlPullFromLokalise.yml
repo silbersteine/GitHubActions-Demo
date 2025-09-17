@@ -21,6 +21,7 @@ jobs:
           translations_path: |
             g11n/data/src/main/res/values
           file_format: xml
+          skip_include_tags: true
           additional_params: >
             {
               "language_mapping": [
