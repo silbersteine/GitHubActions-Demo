@@ -19,7 +19,7 @@ jobs:
           project_id: 728044426499ab4e96ee46.18204254
           base_lang: en
           translations_path: |
-            g11n/data/src/main/res/values-b+en+001
+            g11n/data/src/main/res/values
           name_pattern: strings.xml
           file_format: xml
           rambo_mode: true

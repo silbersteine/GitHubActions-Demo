@@ -1,4 +1,4 @@
-name: Demo pull with tags
+name: Updated XML Demo pull with tags
 
 on:
   workflow_dispatch:
