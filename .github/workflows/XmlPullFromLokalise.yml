@@ -24,7 +24,7 @@ jobs:
           additional_params: >
             {
               "language_mapping": [
-                {"original_language_iso": "es", "custom_language_iso": b+es+419"}
+                {"original_language_iso": "es", "custom_language_iso": "b+es+419"}
               ]
             } 
           
