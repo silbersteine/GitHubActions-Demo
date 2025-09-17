@@ -22,10 +22,14 @@ jobs:
             g11n/data/src/main/res/values-
           file_format: xml
           skip_include_tags: true
+          skip_original_filenames: true
           additional_params: >
             {
               "language_mapping": [
                 {"original_language_iso": "es", "custom_language_iso": "b+es+419"}
-              ]
+              ],
+              "bundle_structure": "g11n/data/src/main/res/values-%LANG_ISO%/strings.xml",
+              "original_filenames": false
+
             } 
           
