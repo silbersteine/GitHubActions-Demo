@@ -22,4 +22,9 @@ jobs:
             g11n/data/src/main/res/values
           file_format: xml
           skip_include_tags: true
-          additional_params: 
+          additional_params: >
+            {
+              "language_mapping": [
+                {"original_language_iso": "es", "custom_language_iso": "b+es+419"}
+              ]
+            }

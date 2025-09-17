@@ -23,4 +23,3 @@ jobs:
             config/locales
           file_format: json
           additional_params: 
-          post_process_command: "sed -i 's/test/REPLACED/g' messages/fr.json"
