@@ -22,6 +22,11 @@ jobs:
             g11n/data/src/main/res/values
           file_format: xml
           skip_include_tags: true
+          post_process_command: |
+            if [ -d "g11n/data/src/main/res/values/b+es+419" ]; then
+                mv g11n/data/src/main/res/values/b+es+419 g11n/data/src/main/res/values-b+es+419
+            fi
+
           additional_params: >
             {
               "language_mapping": [
