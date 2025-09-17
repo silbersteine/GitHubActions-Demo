@@ -23,12 +23,15 @@ jobs:
           file_format: xml
           force_push: true
           skip_include_tags: true
-          
+          post_process_command: |
+            if [ -d "g11n/data/src/main/res/values/b+es+419" ]; then
+                mv g11n/data/src/main/res/values/b+es+419 g11n/data/src/main/res/values-b+es+419
+                git add g11n/data/src/main/res/values-b+es+419
+                git rm -r g11n/data/src/main/res/values/b+es+419
+            fi
           additional_params: >
             {
               "language_mapping": [
                 {"original_language_iso": "es", "custom_language_iso": "b+es+419"}
-              ],
-              "original_filenames": false,
-              "bundle_structure": "g11n/data/src/main/res/values-%LANG_ISO%/strings.xml"
+                ]
             }
