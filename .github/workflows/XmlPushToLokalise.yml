@@ -1,4 +1,4 @@
-name: Demo push with tags
+name: Updated XML Demo push with tags
 on:
   workflow_dispatch:
 
