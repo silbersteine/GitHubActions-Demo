@@ -29,40 +29,6 @@ jobs:
                 {"original_language_iso": "es", "custom_language_iso": "b+es+419"}
                 ]
             }
- name: Updated XML Demo pull with tags
-
-on:
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Pull from Lokalise
-        uses: lokalise/lokalise-pull-action@v4.0.0
-        with:
-          api_token: ${{ secrets.LOKALISE_API_TOKEN }}
-          project_id: 728044426499ab4e96ee46.18204254
-          translations_path: |
-            g11n/data/src/main/res/values
-          file_format: xml
-          force_push: true
-          skip_include_tags: true
-          additional_params: >
-            {
-              "language_mapping": [
-                {
-                  "original_language_iso": "es",
-                  "custom_language_iso": "b+es+419"
-                }
-              ]
-            }
 
       - name: Checkout PR branch created by Lokalise
         uses: actions/checkout@v4
