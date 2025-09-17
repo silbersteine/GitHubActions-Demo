@@ -20,7 +20,6 @@ jobs:
           base_lang: en
           translations_path: |
             g11n/data/src/main/res/values
-          name_pattern: strings.xml
           file_format: xml
           rambo_mode: true
           skip_default_flags: false
