@@ -29,6 +29,6 @@ jobs:
               "language_mapping": [
                 {"original_language_iso": "es", "custom_language_iso": "b+es+419"}
               ],
-              "original_filenames": fales,
+              "original_filenames": false,
               "bundle_structure": "g11n/data/src/main/res/values-%LANG_ISO%/strings.xml"
             }
