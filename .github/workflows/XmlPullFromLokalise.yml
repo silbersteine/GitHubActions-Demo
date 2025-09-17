@@ -23,35 +23,80 @@ jobs:
           file_format: xml
           force_push: true
           skip_include_tags: true
-          post_process_command: |
-            set -euo pipefail
-
-            # Lokalise TRANSLATIONS_PATH env variable
-            translations_path="${TRANSLATIONS_PATH:-g11n/data/src/main/res/values}"
-
-            old_dir="$translations_path/b+es+419"
-            new_dir="$(dirname "$translations_path")/values-b+es+419"
-
-            if [ -d "$old_dir" ]; then
-                echo "Renaming $old_dir -> $new_dir"
-
-                # Ensure parent exists
-                mkdir -p "$(dirname "$new_dir")"
-
-                # Rename folder (moves contents)
-                mv "$old_dir" "$new_dir"
-
-                # Update Git index so commit script sees the new path
-                git add "$new_dir"
-                git rm -r --cached "$old_dir" || true
-
-                echo "Spanish folder rename staged for commit."
-            else
-                echo "No Spanish folder found at $old_dir"
-            fi
           additional_params: >
             {
               "language_mapping": [
                 {"original_language_iso": "es", "custom_language_iso": "b+es+419"}
                 ]
             }
+ name: Updated XML Demo pull with tags
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Pull from Lokalise
+        uses: lokalise/lokalise-pull-action@v4.0.0
+        with:
+          api_token: ${{ secrets.LOKALISE_API_TOKEN }}
+          project_id: 728044426499ab4e96ee46.18204254
+          translations_path: |
+            g11n/data/src/main/res/values
+          file_format: xml
+          force_push: true
+          skip_include_tags: true
+          additional_params: >
+            {
+              "language_mapping": [
+                {
+                  "original_language_iso": "es",
+                  "custom_language_iso": "b+es+419"
+                }
+              ]
+            }
+
+      - name: Checkout PR branch created by Lokalise
+        uses: actions/checkout@v4
+        with:
+          # The branch name comes from the environment variable used by Lokalise Pull
+          ref: ${{ github.head_ref }}
+          persist-credentials: true
+
+      - name: Rename Spanish folder and commit
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          OLD_DIR="g11n/data/src/main/res/values/b+es+419"
+          NEW_DIR="g11n/data/src/main/res/values-b+es+419"
+
+          if [ -d "$OLD_DIR" ]; then
+            echo "Renaming $OLD_DIR -> $NEW_DIR"
+            mkdir -p "$(dirname "$NEW_DIR")"
+            mv "$OLD_DIR" "$NEW_DIR"
+
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+
+            git add "$NEW_DIR"
+            git rm -r --cached "$OLD_DIR" || true
+
+            if ! git diff --cached --quiet; then
+              git commit -m "chore: rename Spanish folder to values-b+es+419"
+              git push origin HEAD
+              echo "PR branch updated with renamed Spanish folder."
+            else
+              echo "No changes detected; nothing to commit."
+            fi
+          else
+            echo "Spanish folder not found at $OLD_DIR"
+          fi
