@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="app_name">Applicazione demo</string>
+  <string name="error_network">Errore di rete. Riprova.</string>
+  <string name="loading_message">Caricamento in corso, attendere prego...</string>
+  <string name="login_button">Login</string>
+  <string name="logout_button">Esci</string>
+  <string name="profile_title">Profilo</string>
+  <string name="settings_title">Impostazioni</string>
+  <string name="signup_button">Iscrizione</string>
+  <string name="success_message">Operazione riuscita!</string>
+  <string name="welcome_message">Benvenuti nell\'app!</string>
+</resources>
