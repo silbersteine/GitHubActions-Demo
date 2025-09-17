@@ -27,12 +27,14 @@ jobs:
             new_dir="g11n/data/src/main/res/values-b+es+419"
 
             if [ -d "$old_dir" ]; then
-                mkdir -p "$new_dir"
-                mv "$old_dir"/strings.xml "$new_dir"/
-                rm -rf "$old_dir"
+                # Make sure parent exists
+                mkdir -p "$(dirname "$new_dir")"
+                # Rename folder (moves contents too)
+                mv "$old_dir" "$new_dir"
                 git add "$new_dir"
                 git rm -r --cached "$old_dir" || true
             fi
+
 
           additional_params: >
             {
