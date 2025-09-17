@@ -19,22 +19,9 @@ jobs:
           api_token: ${{ secrets.LOKALISE_API_TOKEN }}
           project_id: 728044426499ab4e96ee46.18204254
           translations_path: |
-            g11n/data/src/main/res/values
           file_format: xml
+          force_push: true
           skip_include_tags: true
-          post_process_command: |
-            old_dir="g11n/data/src/main/res/values/b+es+419"
-            new_dir="g11n/data/src/main/res/values-b+es+419"
-
-            if [ -d "$old_dir" ]; then
-                mv "$old_dir" "$new_dir"
-
-                # Update Git index so commit script doesn’t see both old & new
-                git rm -r --cached "$old_dir" || true
-                git add "$new_dir"
-            fi
-
-
           additional_params: >
             {
               "language_mapping": [
