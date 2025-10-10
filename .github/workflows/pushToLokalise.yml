@@ -23,7 +23,7 @@ jobs:
             FetchHop/FetchWidget/G11N
             FetchHop/FetchHop/Globalization
           file_format: strings
-          rambo-mode: true
+          rambo_mode: true
           flat_naming: true
           additional_params: >
             {
