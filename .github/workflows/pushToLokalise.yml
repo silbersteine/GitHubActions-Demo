@@ -24,6 +24,7 @@ jobs:
             FetchHop/FetchHop/Globalization
           file_format: strings
           rambo-mode: true
+          flat_naming: true
           additional_params: >
             {
             }
