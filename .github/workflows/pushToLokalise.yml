@@ -19,11 +19,12 @@ jobs:
           project_id: 728044426499ab4e96ee46.18204254
           base_lang: en
           translations_path: |
-            config/locales
-            locales
-          file_format: json
+            FetchHop/Packages/FetchLocalization/Sources/FetchLocalization/Resources
+            FetchHop/FetchWidget/G11N
+            FetchHop/FetchHop/Globalization
+          file_format: strings
           rambo_mode: true
-          flat_naming: false
+          flat_naming: true
           additional_params: >
             {
             }
